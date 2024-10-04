@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace Conversation
 {
-    public class IntoConvo
+    public class Dialogue
     {
         public void StartConversation()
         {
@@ -54,9 +54,38 @@ namespace Conversation
             }
             return input;
         }
+    }
+
+
+
+
+
+
+
+    {
+       
+
+        
+
+
 
         }
+
+public class ConsoleSpin
+{
+    public ConsoleSpin()
+    { 
+        Console.Write("U+2588");
+        Thread.Sleep(500);
+
+        Console.Clear();
+        Console.Write("U+2588");
+        Thread.Sleep(500);
     }
+    
+
+}
+    
 
 //Console.Write("Welcome To Atlas.");
 
